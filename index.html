@@ -235,7 +235,7 @@
         const minuto = parseInt(card.getAttribute('data-minuto'));
 
         if (dia === diaPeru && hora === horaPeru) {
-          if (minutoPeru >= minuto && minutoPeru < minuto + 20) {
+          if (minutoPeru >= minuto && minutoPeru < minuto + 60) {
             card.classList.add('visible');
             encontrada = true;
           } else {
